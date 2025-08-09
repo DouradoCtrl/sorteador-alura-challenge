@@ -33,7 +33,7 @@ function renderizar() {
             <div class="card-header">
                 <h3>${nome}</h3>
                 <button class="button-remove-card" onclick="removerAmigo('${nome}')">
-                    ×
+                    Deletar
                 </button>
             </div>
             <div class="card-content">
