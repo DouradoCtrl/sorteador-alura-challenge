@@ -34,5 +34,10 @@ function renderizar() {
     `).join('');
 }
 
+function removerAmigo(nome) {
+    amigos = amigos.filter(amigo => amigo !== nome);
+    renderizar();
+}
+
 
 
