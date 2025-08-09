@@ -16,6 +16,15 @@ function adicionarAmigo() {
     renderizar();
 }
 
+function reiniciarSorteio() {
+    amigos = [];
+    renderizar();
+    const resultado = document.getElementById('resultado');
+    if (resultado) {
+        resultado.innerHTML = '';
+    }
+}
+
 function renderizar() {
     const container = document.getElementById('cardsContainer');
     
