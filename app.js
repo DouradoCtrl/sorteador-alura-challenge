@@ -16,37 +16,6 @@ function adicionarAmigo() {
     renderizar();
 }
 
-function removerAmigo(nome) {
-    amigos = amigos.filter(amigo => amigo !== nome);
-    renderizar();
-}
-
-function sortearAmigo() {
-    if (!amigos.length) {
-        return alert('Sorteio concluído!');
-    }
-    
-    const sorteado = amigos[Math.floor(Math.random() * amigos.length)];
-    const resultado = document.getElementById('resultado');
-    
-    resultado.innerHTML = `<li>Seu amigo secreto: <strong>${sorteado}</strong></li>`;
-    
-    const confirmar = confirm(`Sorteou: ${sorteado}\n\nConfirmar?`);
-    
-    if (confirmar) {
-        amigos = amigos.filter(amigo => amigo !== sorteado);
-        renderizar();
-        
-        if (amigos.length) {
-            resultado.innerHTML = `<li>Confirmado!</li>`;
-        } else {
-            resultado.innerHTML = '<li>Sorteio concluído!</li>';
-        }
-    } else {
-        resultado.innerHTML = '<li>Tente novamente</li>';
-    }
-}
-
 function renderizar() {
     const container = document.getElementById('cardsContainer');
     
@@ -65,8 +34,3 @@ function renderizar() {
     `).join('');
 }
 
-document.getElementById('amigo').addEventListener('keypress', function(event) {
-    if (event.key === 'Enter') {
-        adicionarAmigo();
-    }
-});
