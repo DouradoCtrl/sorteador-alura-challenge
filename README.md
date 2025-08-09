@@ -14,7 +14,9 @@ Um aplicativo web moderno e interativo para organizar sorteios de amigo secreto 
 
 ## 🚀 Projeto Hospedado
 
-🔗 **[Ver Projeto Online](https://douradoctrl.github.io/sorteador-alura-challenge/)**
+🔗 **[Git hub](https://douradoctrl.github.io/sorteador-alura-challenge/)**
+🔗 **[Vercel](https://sorteador-alura-challenge.vercel.app/)**
+
 
 ## 📋 Funcionalidades
 
