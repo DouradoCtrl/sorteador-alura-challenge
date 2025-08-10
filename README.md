@@ -2,6 +2,12 @@
 
 Aplicação web interativa para sorteio de amigo secreto com interface moderna e design neon. Desenvolvido como parte do Challenge Amigo Secreto do Programa ONE (Oracle Next Education) - Turma G9 em parceria com a Alura.
 
+## 🚀 Projeto Hospedado
+
+🔗 **[Git hub](https://douradoctrl.github.io/sorteador-alura-challenge/)**
+🔗 **[Vercel](https://sorteador-alura-challenge.vercel.app/)**
+
+
 ## 🌟 Demonstração
 
 ### 🖼️ Screenshots
