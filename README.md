@@ -1,6 +1,6 @@
 # 🎁 Amigo Secreto - Sorteador
 
-Um aplicativo web moderno e interativo para organizar sorteios de amigo secreto com design futurista e efeitos neon.
+Aplicação web interativa para sorteio de amigo secreto com interface moderna e design neon. Desenvolvido como parte do Challenge Amigo Secreto do Programa ONE (Oracle Next Education) - Turma G9 em parceria com a Alura.
 
 ## 🌟 Demonstração
 
